@@ -14,9 +14,10 @@ Run the application using `docker run -p 8080:8080 greenfield-project`. When the
 
 ## The Goal
 
-Deploy the application as a web service reachable from the internet. You can use all resources available on AWS, but **everything has to be provisioned through Infrastructure as Code**. You can use CloudFormation, Terraform or a tool of your own choice.
+Deploy the application as a web service reachable from the internet. You need to run it on an EKS cluster.
+**as much as possible has to be provisioned through Infrastructure as Code**. You can use CloudFormation, Terraform or a tool of your own choice.
 
-We will took at 4 pillars when reviewing the application
+We will look at 4 pillars when reviewing the application
 
 ### Operational Excellence
 
