@@ -48,3 +48,32 @@ Thumbs.db
 *.mov
 *.wmv
 
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files - never commit, we use a remote S3 backend
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# Ignore override files as they are usually used to override resources locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan output files
+*.tfplan
+*.tfplan.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
